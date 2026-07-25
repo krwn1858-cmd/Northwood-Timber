@@ -87,7 +87,54 @@ nav ul li a:hover{
     justify-content:center;
     align-items:center;
 }
+.hero-overlay{
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,0.55);
+}
 
+.hero-content{
+    position:relative;
+    z-index:2;
+    max-width:850px;
+    padding:20px;
+}
+
+.hero-content h1{
+    font-size:64px;
+    margin-bottom:20px;
+}
+
+.hero-content p{
+    font-size:20px;
+    margin-bottom:35px;
+    line-height:1.7;
+}
+
+.btn{
+    display:inline-block;
+    margin:10px;
+    padding:15px 35px;
+    background:#b8860b;
+    color:#fff;
+    text-decoration:none;
+    border-radius:35px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#8b6508;
+}
+
+.btn-outline{
+    background:transparent;
+    border:2px solid #fff;
+}
+
+.btn-outline:hover{
+    background:#fff;
+    color:#222;
+}
 .overlay{
     position:absolute;
     inset:0;
